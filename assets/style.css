@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(188, 188, 188); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(188, 188, 188); 
+  }
+
+
+   /* .demo-layout-transparent {
+    } */
+    .demo-layout-transparent .mdl-layout__header,
+    .demo-layout-transparent .mdl-layout__drawer-button {
+      /* This background is dark, so we set text to white. Use 87% black instead if
+         your background is light. */
+      color: black;
+    }
+
+
+     .mdl-navigation .mdl-navigation__link{
+        color: black !important;
+    }
+
+
+    .logo svg{
+        padding-left: 40px;
+    }
+
+
+    svg{
+        width: 120px !important;
+        height: 56px !important;
+    }
+
+
+    #shortsLink {
+        display: flex;
+    }
+
+
+    #shortsLink svg{
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+
+
+
+    .mdl-layout-spacer form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mdl-layout-spacer form input{
+        border: 1px  solid grey;
+        padding: 10px;
+    }
+
+
+    #centerHeader{
+        width: 600px !important;
+    }
+
+    .mdl-textfield{
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .mdl-layout-spacer form button{
+        border: 1px solid grey;
+        padding: 6px 15px;
+
+    }
+
+
+    .mdl-layout-spacer form i{
+        color: black !important;
+    }
+
+    .mdl-layout-spacer form #micIcon{
+        margin-left: 20px;
+    }
+
+
+
+    .mdl-list__item-primary-content svg{
+        width: 25px !important;
+        height: 25px !important;
+        margin-right: 30px;
+    }
+
+
+    .sidebar{
+        width: 250px;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    .sidebar:hover{
+        overflow: auto;
+    }
+    
+    .sidebar li a{
+        color: black !important;
+    }
+
+    .sidebar li i{
+        color: black !important;
+    }
+
+    .sidebar li:hover{
+        background-color: #f0f0f0;
+    }
+
+
+
+    .active{
+        background-color: #e5e5e5;
+    }
+
+
+    #secondList #titleSpan {
+        font-size: 16px;
+        padding-left: 20px;
+        color: #606060;
+        text-transform: uppercase;
+    }
+
+    #secondList a span{
+        color: black;
+    }
+
+    #sidebar{
+        padding-top: 20px;
+    }
+
+    .menuContent{
+        padding: 20px;
+        width: 100%;
+        max-height: 30px !important;
+        overflow: auto;
+    }
+
+
+    .listcontents a{
+        margin-left: 20px;
+    }
+
+
+    .menuContent .listcontents span{
+        font-size: 16px;
+    }
+
+    .active_List{
+        background-color: black !important;
+        color: white !important;
+    }
+
+
+    #main{
+        display: flex;
+    }
+
+    .videos{
+        padding: 20px;
+    }
+
+    .bottomVideo {
+        display: flex;
+    }
+
+    .bottomVideoText{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .bottomVideoText span{
+        color: black;
+    }
+
+
+     .mdl-card__title {
+        color: #fff;
+        height: 176px;
+        background: url('../assets/img/bg.jpg') center / cover;
+      }
+
+
+
+    @media only screen and (max-width: 768px) {
+       .sidebar {
+        display: none !important;
+       }
+
+       .menuContent{
+        margin-top: 30px;
+       }
+      }
