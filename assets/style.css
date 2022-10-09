@@ -195,7 +195,8 @@
         padding: 20px;
         width: 100%;
         max-height: 30px !important;
-        overflow: auto;
+        overflow: hidden;
+        overflow-y: scroll;
     }
 
 
@@ -244,6 +245,10 @@
         background: url('../assets/img/bg.jpg') center / cover;
       }
 
+
+      .demo-card-square{
+        width: 300px !important;
+      }
 
 
     @media only screen and (max-width: 768px) {
